@@ -1,8 +1,8 @@
 # Storio
 ## URL
-* storio-api.herokuapp.com
+* [API Server](http://storio-api.herokuapp.com)
 ## Api Documentation
-* 
+* [Documentaion](https://documenter.getpostman.com/view/666460/S11ByMoT)
 # Scope
 ## Users
 * Register user (Developed)

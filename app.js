@@ -29,7 +29,7 @@ app.use('/assets', express.static('uploads'));
 
 let port = 8000;
 
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
     console.log('Application Server is up and running on port number ' + port);
 });
 
