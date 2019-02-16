@@ -1,0 +1,3 @@
+{
+    "live":"mongodb://adminOutbox:xVemD6YEu5HM@127.0.0.1:27017:27017/storio?authSource=admin"
+}
