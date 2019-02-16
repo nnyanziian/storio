@@ -6,6 +6,7 @@ var multer  = require('multer')
 var upload = multer({ dest: 'uploads/',fileFilter: Imageutils.imageFilter });
 
 
+
 //Register users
 router.post('/user', function (req, res, next) {
     user.register(req, res, next);
