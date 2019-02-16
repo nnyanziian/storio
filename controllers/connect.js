@@ -1,7 +1,7 @@
 /* Connection module */
 const mongoose = require('mongoose');
 const config = require('../config/db.json');
-let mongoDB = config.live;
+let mongoDB = process.env.MONGODB_URI || config.live;
 
 
 mongoose.connect(mongoDB, {
