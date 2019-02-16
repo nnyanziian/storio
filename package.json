@@ -8,12 +8,6 @@
       "prod": "NODE_ENV=production nodemon app.js",
       "server": "nodemon app.js"
     },
-    "husky": {
-      "hooks": {
-        "pre-commit": "npm test",
-        "pre-push": "npm test"
-      }
-    },
     "dependencies": {
       "bcrypt": "^3.0.1",
       "body-parser": "^1.18.3",
@@ -32,10 +26,6 @@
       "shelljs": "^0.8.3"
     },
     "devDependencies": {
-      "chai": "^3.5.0",
-      "chai-http": "^4.2.0",
-      "husky": "^1.0.0-rc.14",
-      "mocha": "^5.2.0",
       "nodemon": "^1.11.0"
     },
     "repository": {

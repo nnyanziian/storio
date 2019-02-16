@@ -1,4 +1,4 @@
-#Todo
+# Scope
 ## Users
 * Register user (Developed)
 * Login User (Developed)
@@ -10,7 +10,7 @@
 ## Upload 
 * upload audio file (Developed)
 
-## Stories
+## Stories (Todo)
 * Add Story
 * Update Story
 * Delete Story
